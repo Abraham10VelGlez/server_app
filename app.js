@@ -10,7 +10,6 @@ app.get('/json',(req,res) =>{
     res.json({message:"express js activo AVG"});
 })
 
-
 ////// delimitar todas las rutas van antes de listen para ser escuchadas
 app.listen(port, () => {
   console.log(`APP CON PUERTO OPEN: ${port}`)
